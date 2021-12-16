@@ -1,10 +1,9 @@
 package main
 
-
 import (
-"fmt"
-"log"
-"net/http"
+	"fmt"
+	"log"
+	"net/http"
 )
 
 // w表示response对象，返回给客户端的内容都在对象里处理
