@@ -18,7 +18,7 @@ func main() {
 	http.HandleFunc("/", index)
 
 	// 启动web服务，监听9090端口
-	err := http.ListenAndServe(":9090", nil)
+	err := http.ListenAndServe(":80", nil)
 	if err != nil {
 		log.Fatal("ListenAndServe: ", err)
 	}
