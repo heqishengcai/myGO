@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func main_1() {
 	_, b := 34, 35
 	println(b)
 	fmt.Println("Hello World !")
